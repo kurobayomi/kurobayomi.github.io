@@ -51,16 +51,3 @@
   font-size: 14px;
   color: var(--vp-c-text-2);
 }
-/* PLACEHOLDER: stands in for a screenshot that has not been taken yet; delete with the screenshot's arrival. */
-.shot-placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 1180 / 760;
-  border: 2px dashed var(--vp-c-divider);
-  border-radius: 8px;
-  color: var(--vp-c-text-2);
-  font-size: 14px;
-  text-align: center;
-  padding: 16px;
-}

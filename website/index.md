@@ -35,14 +35,12 @@ features:
     <figcaption>Search every source at once.</figcaption>
   </figure>
   <figure>
-    <!-- PLACEHOLDER: screenshot of the manga reader -->
-    <div class="shot-placeholder">PLACEHOLDER: screenshot of the manga reader</div>
-    <figcaption>The manga reader.</figcaption>
+    <img class="shot" src="/screenshots/06-sources-manga.png" alt="Manga sources in Browse">
+    <figcaption>Manga sources, grouped by language.</figcaption>
   </figure>
   <figure>
-    <!-- PLACEHOLDER: screenshot of the anime player -->
-    <div class="shot-placeholder">PLACEHOLDER: screenshot of the anime player</div>
-    <figcaption>The anime player.</figcaption>
+    <img class="shot" src="/screenshots/07-source-titles.png" alt="The titles of one source">
+    <figcaption>Open a source to see its titles.</figcaption>
   </figure>
   <figure>
     <img class="shot" src="/screenshots/01-welcome.png" alt="The welcome screen">
