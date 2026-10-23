@@ -24,8 +24,9 @@ A repository is a list of sources that someone publishes at a web address. Kurob
    ![A repository link pasted into the window](/screenshots/03-paste-link.png)
 
 ::: tip
-If a website shows an **Add to Aniyomi** or **Add to Tachiyomi** button for a repository, clicking it opens Kurobayomi
-with the link already filled in.
+If a repository's website has an **Add to Kurobayomi** button, clicking it opens Kurobayomi with the link already
+filled in. Aniyomi and Tachiyomi repositories, and their **Add to Aniyomi** or **Add to Tachiyomi** buttons, do not
+work in Kurobayomi: their extensions are Android apps.
 :::
 
 ## 3. Your sources
