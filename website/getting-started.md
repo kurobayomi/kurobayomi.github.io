@@ -88,13 +88,13 @@ and the rest is in its **☰** menu.
 ## Where your files go
 
 Downloads and backups go to **Kurobayomi** in your home folder: **Anime** and **Manga** hold the downloads, **Backups**
-the backups and **Local** your own folders. To use another folder, open **Settings → Data and storage** and click
+the backups and **Local** your own folders. To use another folder, open **Settings → Backup and restore** and click
 **Storage location**. New downloads go there after a restart; files already downloaded stay where they are.
 
 ## Restore a backup
 
 You can bring back a backup from Kurobayomi, Aniyomi or Tachiyomi (a file that ends in `.tachibk`): click **Restore
-from a backup** on the welcome screen, or open **Settings → Data and storage** and click **Restore backup**.
+from a backup** on the welcome screen, or open **Settings → Backup and restore** and click **Restore backup**.
 
 ## Connect AniList (optional)
 

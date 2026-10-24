@@ -4,46 +4,42 @@ import { ISSUES } from "./.vitepress/constants";
 
 # Help
 
-## The AppImage does not start
+Answers to common questions and step-by-step guides for Kurobayomi on Linux and Windows. Use the search box at the top
+to find a word, or pick a topic below.
 
-- **Nothing happens on double-click:** the file is not allowed to run yet. See [Run it](/download#run-it).
-- **An error about glibc or `GLIBC_2.39`:** your system is too old. Kurobayomi needs Ubuntu 24.04, Fedora 40, Debian
-  13 or newer.
-- **An error about FUSE:** install your system's `libfuse2` package (on Ubuntu 24.04: `libfuse2t64`), or start it with
-  `./Kurobayomi-x86_64.AppImage --appimage-extract-and-run`.
+## New to Kurobayomi?
 
-## Windows warns about the installer
+Start with [Getting started](/getting-started): add a repository, find a title, and watch or read it in about five
+minutes.
 
-The installer is not signed, so Windows SmartScreen may say it protected your PC. Click **More info**, then **Run
-anyway**. The installer comes from the [Download](/download#windows) page; only run one you downloaded from there.
+## Something is not working
 
-## Browse is empty
+[Troubleshooting](/docs/guides/troubleshooting) covers an app that does not start, a source that fails, Cloudflare
+checks, library update errors, a video that does not play and updates that do not arrive.
 
-Kurobayomi has no sources until you add a repository. See [Add a repository](/getting-started#_2-add-a-repository).
+## Frequently asked questions
 
-## A source does not work
+| Topic | For example |
+| --- | --- |
+| [General](/docs/faq/general) | What Kurobayomi is, whether it has sources of its own, what the nightly is |
+| [Library](/docs/faq/library) | Sorting, selecting, why large updates are warned about |
+| [Updates](/docs/faq/updates) | Automatic updates, the Upcoming calendar |
+| [Browse and sources](/docs/faq/browse) | Repositories, turning sources on, adult titles |
+| [Downloads](/docs/faq/downloads) | Where files go, quality, deleting after watching |
+| [Player](/docs/faq/player) | Quality, subtitles, Skip Opening, your own mpv settings |
+| [Reader](/docs/faq/reader) | Reading modes, zoom, webtoons |
+| [Storage and data](/docs/faq/storage) | Where Kurobayomi keeps its files, moving them, cache |
 
-A source stops working when its website changes. Kurobayomi then shows a short message with a **Retry** button.
+## Guides
 
-1. Click **Retry**, or try again later.
-2. Repositories are checked for fixes every day, so a source that fails today often works again after the next update.
+- [Backups](/docs/guides/backups): make a backup, restore one from Kurobayomi, Aniyomi or Mihon.
+- [Tracking](/docs/guides/tracking): keep your progress on AniList or MyAnimeList.
+- [Categories](/docs/guides/categories): sort your library into tabs.
+- [Local folders](/docs/guides/local-folders): add your own anime and manga files.
+- [Source migration](/docs/guides/source-migration): move a title to another source and keep your progress.
+- [Keyboard shortcuts](/docs/guides/keyboard-shortcuts): every key of the app, the player and the reader.
 
-A source that keeps failing shows **Not working right now** in Browse. Sources are made by the people who publish the
-repository, so report a broken source to them, not to Kurobayomi.
+## Still stuck?
 
-## The update does not arrive
-
-Kurobayomi checks for a new version at start, unless you turned that off in **About** or you are on a metered
-connection. **About** has a button to check now. An AppImage in a folder you cannot write to (a system folder)
-cannot replace itself; move it to your home folder. On Windows the new version installs when you quit Kurobayomi, so
-quit it (or press **Restart** in the message) to get it.
-
-## Where are my downloads?
-
-In **Kurobayomi** in your home folder (your user folder on Windows), unless you chose another folder in **Settings → Data
-and storage**. The nightly app uses **Kurobayomi-Nightly**.
-
-## Report a bug
-
-Open an issue on <a :href="ISSUES">GitHub</a>. Say what you did, what you expected and what happened, and which version
-you use (it is in **About**). Leave out links to copyrighted content.
+Open an issue on <a :href="ISSUES">GitHub</a>. Say what you did, what you expected and what happened, and which
+version you use (it is in **Settings → About**). Leave out links to copyrighted content.
