@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Kurobayomi
-  text: Anime and manga on the Linux desktop
+  text: Anime and manga on Linux and Windows
   tagline: A GTK 4 port of Aniyomi. Watch anime and read manga from the sources you choose, in one native app.
 
 features:

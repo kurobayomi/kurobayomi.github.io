@@ -1,6 +1,6 @@
 # kurobayomi.github.io
 
-The website of [Kurobayomi](https://github.com/kurobayomi/kurobayomi), the anime and manga app for the Linux desktop:
+The website of [Kurobayomi](https://github.com/kurobayomi/kurobayomi), the anime and manga app for Linux and Windows:
 <https://kurobayomi.github.io>. Built with [VitePress](https://vitepress.dev).
 
 ```sh
