@@ -24,6 +24,13 @@ With categories. See [Categories](/docs/guides/categories).
 Press and hold a cover, or **Ctrl+click** it. **Shift+click** selects a range, **Ctrl+A** selects all and **Ctrl+I**
 inverts the selection. **Esc** clears it.
 
+You can also drag from an empty spot between the covers: every cover the box touches is selected. Hold **Ctrl** when you
+start the drag to keep what is already selected. Only the covers on screen are selected; the page does not scroll while
+you drag.
+
+The same works in **Browse**, where the bar at the bottom offers **Add to library** for the selected titles that are not
+in your library yet (you are asked for the categories once, for all of them) and **Set categories** for those that are.
+
 ## Why am I warned about large updates and downloads? {#large-updates}
 
 Sources are websites run by other people. When the app asks one site for many titles at once, the site slows down for

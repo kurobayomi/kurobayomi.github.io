@@ -19,13 +19,20 @@ On a title's page, press **F1** or **?** to see the shortcuts of that page.
 | Ctrl+Page Up, Ctrl+Page Down | Previous or next category |
 | F5 | Update the category you are viewing |
 
+In the Library, in Browse and in a title's episode or chapter list, drag from an empty spot to select everything the box
+touches. Hold **Ctrl** while you start the drag to add to the selection.
+
 ## Browse
 
 | Key | Action |
 | --- | --- |
 | Ctrl+1 | Anime sources |
 | Ctrl+2 | Manga sources |
-| Esc | Close the search, then leave the page |
+| Ctrl+click | Select or unselect a title |
+| Shift+click | Select a range |
+| Ctrl+A | Select all loaded titles |
+| Ctrl+I | Invert the selection |
+| Esc | Clear the selection, then close the search, then leave the page |
 
 ## Title page
 
