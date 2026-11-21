@@ -1,3 +1,7 @@
+---
+description: "Check for new episodes and chapters in Kurobayomi, let it check and download by itself, and see what Upcoming shows."
+---
+
 # Updates
 
 ## How do I check for new episodes and chapters?

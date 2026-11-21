@@ -1,3 +1,7 @@
+---
+description: "Download Kurobayomi for Windows 10 and 11 as an installer or for Linux as an AppImage, stable or nightly, for 64-bit PCs."
+---
+
 <script setup>
 import { STABLE_URL, NIGHTLY_URL, WINDOWS_STABLE_URL, WINDOWS_NIGHTLY_URL, RELEASES } from "./.vitepress/constants";
 </script>

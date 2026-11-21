@@ -1,3 +1,7 @@
+---
+description: "Split your Kurobayomi library into category tabs such as Watching or Finished: create, rename and delete them, and put titles in them."
+---
+
 # Categories
 
 Categories split your library into tabs, for example "Watching", "Plan to watch" and "Finished". Anime and manga have

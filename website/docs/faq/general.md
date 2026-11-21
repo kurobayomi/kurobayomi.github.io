@@ -1,3 +1,7 @@
+---
+description: "What Kurobayomi is, whether it comes with sources, Aniyomi extensions, supported systems, the nightly app, self-updates, Incognito and price."
+---
+
 # General
 
 ## What is Kurobayomi?

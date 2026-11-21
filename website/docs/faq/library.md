@@ -1,3 +1,7 @@
+---
+description: "Add titles to your Kurobayomi library, sort and filter it, use category tabs, select several titles, and fix titles that did not update."
+---
+
 # Library
 
 ## How do I add a title to my library?

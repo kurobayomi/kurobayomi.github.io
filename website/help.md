@@ -1,3 +1,7 @@
+---
+description: "Answers to common questions and step-by-step guides for Kurobayomi on Linux and Windows."
+---
+
 <script setup>
 import { ISSUES } from "./.vitepress/constants";
 </script>

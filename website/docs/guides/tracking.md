@@ -1,3 +1,7 @@
+---
+description: "Send your Kurobayomi progress to AniList and MyAnimeList as you watch and read: sign in, track a title, sign out."
+---
+
 # Tracking
 
 A tracker keeps a list of what you watch and read on a website. Kurobayomi can send your progress to **AniList** and

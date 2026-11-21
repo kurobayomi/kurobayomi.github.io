@@ -1,3 +1,7 @@
+---
+description: "Where Kurobayomi keeps its files, moving downloads to another drive, freeing space, fixing covers, starting over, the Windows install folder."
+---
+
 # Storage and data
 
 ## Where does Kurobayomi keep my files?

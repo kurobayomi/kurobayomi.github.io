@@ -1,6 +1,8 @@
 // Where the app lives. Every page reads these, so a move is one edit here.
 export const OWNER = "kurobayomi";
 export const REPO = "kurobayomi";
+// this website's own address (canonical links, the sitemap, link previews)
+export const SITE_URL = `https://${OWNER}.github.io/`;
 export const APP_REPO = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUES = `${APP_REPO}/issues`;
 export const RELEASES = `${APP_REPO}/releases`;

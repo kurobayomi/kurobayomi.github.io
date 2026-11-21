@@ -1,3 +1,7 @@
+---
+description: "Show your own anime and manga files in Kurobayomi next to titles from sources, read from your disk, working offline, with covers and details."
+---
+
 # Local folders
 
 Kurobayomi can show your own anime and manga files next to the titles from sources. They are read from your disk, so

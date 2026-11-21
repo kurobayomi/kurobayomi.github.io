@@ -1,3 +1,7 @@
+---
+description: "Move a title in your Kurobayomi library to another source and keep your progress, when a source stops working or another one is better."
+---
+
 # Source migration
 
 Migration moves a title in your library to another source and keeps your progress. Use it when a source stops working

@@ -1,3 +1,7 @@
+---
+description: "Repositories and sources in Kurobayomi: adding and removing them, source statuses, searching every source, adult titles and Cloudflare checks."
+---
+
 # Browse and sources
 
 ## What is a repository?

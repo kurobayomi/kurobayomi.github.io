@@ -1,3 +1,7 @@
+---
+description: "The Kurobayomi manga reader: reading modes, turning pages, zoom, white borders and double pages, saving a page, and the background."
+---
+
 # Reader
 
 ## Which reading modes are there?

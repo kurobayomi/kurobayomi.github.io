@@ -1,3 +1,7 @@
+---
+description: "Every Kurobayomi keyboard shortcut: everywhere, Library, Browse, a title's page, Updates, the player and the reader."
+---
+
 # Keyboard shortcuts
 
 On a title's page, press **F1** or **?** to see the shortcuts of that page.

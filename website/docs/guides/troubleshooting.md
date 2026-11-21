@@ -1,3 +1,7 @@
+---
+description: "Fixes for common Kurobayomi problems: the AppImage, the Windows installer warning, empty Browse, broken sources, Cloudflare, videos, updates."
+---
+
 <script setup>
 import { ISSUES } from "../../.vitepress/constants";
 </script>

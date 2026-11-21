@@ -1,3 +1,7 @@
+---
+description: "The Kurobayomi anime player: quality, server, subtitles and audio, preferred languages, Skip Opening, full screen, mpv settings, playback problems."
+---
+
 # Player
 
 ## How do I change quality, server, subtitles or audio?

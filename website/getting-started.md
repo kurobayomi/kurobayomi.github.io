@@ -1,3 +1,7 @@
+---
+description: "Set up Kurobayomi in about five minutes: add a repository you trust, find a title, watch or read it, and build your library."
+---
+
 # Getting started
 
 Kurobayomi lets you watch anime and read manga on your computer. It comes with no sources of its own: you add a

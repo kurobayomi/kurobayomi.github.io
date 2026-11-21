@@ -1,3 +1,7 @@
+---
+description: "Where Kurobayomi saves downloads, their format and quality, ffmpeg, how many run at once, deleting them, and fixing failed downloads."
+---
+
 # Downloads
 
 ## Where are my downloads?

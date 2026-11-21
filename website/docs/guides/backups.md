@@ -1,3 +1,7 @@
+---
+description: "Make and restore Kurobayomi backups, one .tachibk file with your library, progress and settings, and bring a library over from Aniyomi or Mihon."
+---
+
 # Backups
 
 A backup is one `.tachibk` file with your library, progress and settings. Make one before you try the nightly app, move

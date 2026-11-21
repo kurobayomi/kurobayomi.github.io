@@ -1,5 +1,33 @@
-import { defineConfig } from "vitepress";
-import { APP_REPO } from "./constants";
+import { defineConfig, type HeadConfig } from "vitepress";
+import { APP_REPO, SITE_URL } from "./constants";
+import { seoHead, type Site } from "./seo";
+
+const site: Site = {
+  url: SITE_URL,
+  name: "Kurobayomi",
+  image: "/og-image.png",
+  imageAlt: "Kurobayomi: anime and manga on Linux and Windows",
+};
+
+// The home page tells search engines what the app is (schema.org SoftwareApplication). No version number: it would go
+// stale at every release.
+const app: HeadConfig = [
+  "script",
+  { type: "application/ld+json" },
+  JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Kurobayomi",
+    description: "Watch anime and read manga from the sources you choose, in one native app for Linux and Windows.",
+    url: SITE_URL,
+    applicationCategory: "MultimediaApplication",
+    operatingSystem: "Linux, Windows",
+    downloadUrl: new URL("download", SITE_URL).href,
+    screenshot: new URL("screenshots/09-details.png", SITE_URL).href,
+    license: "https://www.apache.org/licenses/LICENSE-2.0",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+  }),
+];
 
 export default defineConfig({
   title: "Kurobayomi",
@@ -7,7 +35,12 @@ export default defineConfig({
   lang: "en",
   cleanUrls: true,
   lastUpdated: false,
-  head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
+  head: [
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }],
+    ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png" }],
+  ],
+  sitemap: { hostname: SITE_URL },
+  transformHead: (ctx) => [...seoHead(site, ctx), ...(ctx.page === "index.md" ? [app] : [])],
   themeConfig: {
     logo: "/logo.svg",
     nav: [

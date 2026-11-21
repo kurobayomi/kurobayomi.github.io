@@ -1,4 +1,7 @@
 ---
+title: "Kurobayomi: anime and manga on Linux and Windows"
+titleTemplate: false
+description: "Watch anime and read manga from the sources you choose, in one native app for Linux and Windows. Library, updates, downloads, Aniyomi backups."
 layout: home
 
 hero:
